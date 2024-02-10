@@ -22,6 +22,12 @@ if (str.length == 0) {
 } else {
   alert(" Not a Blank string");
 }
+// using boolen expresstion 
+if (!!str == false) {
+  alert("Blank string");
+} else {
+  alert(" Not a Blank string");
+}
 
 
 // Qs4. Write a JavaScript program to test whether the character at the given (character) index is lower case.
