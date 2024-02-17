@@ -14,12 +14,12 @@ btn.innerText = "Click me";
 // -Change placeholder value of input to "username"
 document.querySelector("input").placeholder = "username";
 // or
-inp = setAttribute("placeholder", "username")
+inp.setAttribute("placeholder", "username")
 
 // -Change the id of button to "btn"
 document.getElementById("button").id = "btn";
 // or
-btn = setAttribute("id", "btn")
+btn.setAttribute("id", "btn")
 
 
 // Qs3. Access the btn using the querySelector and button id. Change the button background color to blue and text color to white.
