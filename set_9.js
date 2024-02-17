@@ -9,6 +9,7 @@ body.append(inp);
 
 btn.innerText = "Click me";
 
+
 // Qs2. Add following attributes to the element :
 // -Change placeholder value of input to "username"
 document.querySelector("input").placeholder = "username";
