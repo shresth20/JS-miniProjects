@@ -23,7 +23,10 @@ window.addEventListener("load", (event) => {
 // Qs2. Create a button on the page using JavaScript. Add an event listener to the button that changes the button’s color to green when it is clicked.
 
 let body = document.querySelector("body");
-body.innerHTML = "<button>click me!</button>";
+let button = document.createElement("button");
+button.innerText = "click me!";
+body.appendChild(button);
+
 document.addEventListener(
   "click",
   (event) => (document.querySelector("button").style.backgroundColor = "green")
