@@ -19,6 +19,7 @@ body {
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 7px;
 
+    box-shadow: 0px 0px 20px rgb(75, 75, 75);
     font-size: xx-large;
     font-weight: 700;
     border: solid;
@@ -27,10 +28,10 @@ body {
     height: 500px;
     padding: 5px;
     background-color: rgb(255, 255, 203);
-    
+
 }
 
-div{
+div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +42,8 @@ div{
     background-color: rgb(201, 255, 92);
 }
 
-#main>div:hover{
+#main>div:hover {
+    cursor: pointer;
     background-color: rgb(157, 211, 48);
 }
 
@@ -52,7 +54,7 @@ div{
     grid-column: 1/5;
 }
 
-#equal{
+#equal {
 
     grid-column: 4;
     grid-row: 3/7;
