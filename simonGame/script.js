@@ -48,7 +48,7 @@ function checkAns(idx) {
       setTimeout(levelUp, 1000);
     }
   } else {
-    h2.innerHTML = `<b>GAME OVER</b>    Score:${level} <br> Press any key to start again !!`;
+    h2.innerHTML = `<b>GAME OVER</b>    Score:${level} <br>Click here <button id="startbtn">START</button> to start again !!`;
     h1.innerHTML = `Highest Score:${highScore()}`;
     document.querySelector("body").style.backgroundColor = "red";
     setTimeout(
