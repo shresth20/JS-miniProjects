@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #96b4fe;
+
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px #0c38fb;
+    background-color: #fff;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+
+#dp {
+    overflow: hidden;
+    position: relative;
+
+}
+
+#dp>img {
+    border-radius: 15px;
+    margin: 25px;
+    width: 350px;
+    height: 240px;
+    object-fit: cover;
+    box-shadow: 0px 0px 7px #7700ff;
+
+}
+
+#dp #like {
+    color: #ff0000;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    opacity: 0;
+    transition: transform ease 0.5s;
+}
+
+
+#name {
+    color: #43028c;
+    text-shadow: 0px 0px 2px currentColor;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+#bio {
+    color: #2d015f;
+    text-shadow: 0px 0px 1px currentColor;
+    margin: 40px;
+    font-size: larger;
+}
+
+#bottom {
+    margin-top: 40px;
+    font-size: large;
+}
+
+#bottom>span {
+    color: #0231a7;
+    text-shadow: 0px 0px 2px currentColor;
+    margin: 0px 10px;
+    padding: 0px 20px;
+}
+
+#btn {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px currentColor;
+    border-radius: 20px;
+
+}
+
+#btn:hover {
+    font-size: 19px;
+}
