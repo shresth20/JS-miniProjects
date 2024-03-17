@@ -9,7 +9,7 @@ let btns = ["red", "yellow", "green", "blue"];
 let h2 = document.querySelector("h2");
 let h1 = document.querySelector("h1");
 
-document.addEventListener("keypress", function () {
+document.querySelector("#startbtn").addEventListener("click", function () {
   if (started == false) {
     started = true;
     levelUp();
